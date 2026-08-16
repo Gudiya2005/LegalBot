@@ -1,48 +1,97 @@
-# 🛡️ LegalBot
-- Login alerts
+🛡️ LegalBot
 
+AI-Powered Cyber Crime & Online Fraud Assistant
 
-### 📄 Complaint Draft
+LegalBot is an AI-powered cyber safety assistant designed to help users understand cyber crime incidents, online fraud, scams, phishing attempts, account hacking, and related digital threats.
+
+It combines Generative AI, Retrieval-Augmented Generation (RAG), multi-agent orchestration, voice interaction, authentication, and conversation history into a modern web-based assistant.
+
+⚠️ Disclaimer: LegalBot provides AI-generated assistance and educational guidance. It does not replace professional legal advice, cybersecurity professionals, financial institutions, or law-enforcement authorities. Complaint drafts should be reviewed and verified before official submission.
+
+✨ Features
+
+🤖 AI Cyber Crime Assistant
+
+Conversational assistance for cyber crime and online fraud situations
+
+Context-aware responses
+
+Cyber safety guidance and recommended actions
+
+Gemini-powered reasoning
+
+🔎 Scam & Phishing Checker
+
+Analyzes suspicious messages, calls, links, and situations
+
+Provides a scam-risk assessment
+
+Identifies common phishing and fraud patterns
+
+Gives practical safety recommendations
+
+🚨 Emergency Help
+
+Provides immediate guidance for urgent cyber crime situations
+
+Helps users understand what actions to take
+
+Highlights important information and evidence to preserve
+
+📄 Complaint Draft
+
 Helps users prepare structured cyber crime complaint drafts by collecting relevant incident information and generating a formal draft for review.
 
+🗂️ Evidence Guide
 
-### 🎙️ Voice Input
-- Voice-based message input
-- Audio recording through the browser
-- Whisper-based speech-to-text transcription
-- Transcribed text is placed directly into the chat input
+Provides guidance on preserving useful digital evidence such as screenshots, emails, messages, call logs, transaction information, and login alerts.
 
+🎙️ Voice Input
 
-### 🗂️ Conversation History
-- Stores user conversations
-- Allows users to view recent chats
-- Allows users to reopen previous conversations
-- Maintains conversation and tool information
+Voice-based message input
 
+Browser-based audio recording
 
-### 🔐 Authentication
-- User registration
-- User login
-- JWT-based authentication
-- Protected API endpoints
-- User-specific chat history
+Faster-Whisper speech-to-text transcription
 
+Transcribed text is placed directly into the chat input
 
-### 🌓 Light & Dark Mode
-- Cyber-security inspired interface
-- Light mode
-- Dark mode
-- Responsive chat interface
-- Modern sidebar and agent navigation
+🗂️ Conversation History
 
+Stores user conversations
 
----
+Displays recent chats
 
+Allows users to reopen previous conversations
 
-# 🧠 System Architecture
+Maintains conversation and tool information
 
+🔐 Authentication
 
-```text
+User registration
+
+User login
+
+JWT-based authentication
+
+Protected API endpoints
+
+User-specific conversation history
+
+🌓 Light & Dark Mode
+
+Cyber-security inspired interface
+
+Light mode
+
+Dark mode
+
+Responsive chat interface
+
+Modern sidebar and agent navigation
+
+🧠 System Architecture
+
                          ┌──────────────────┐
                          │      User        │
                          └────────┬─────────┘
@@ -91,18 +140,38 @@ Helps users prepare structured cyber crime complaint drafts by collecting releva
                  ▼
              User Response
 
-
-# 🤖 AI Agents
+🤖 AI Agents
 
 LegalBot uses specialized agents for different cyber safety tasks.
 
-Agent	Purpose
-Gemini Cyber Brain	Main cyber crime reasoning and response generation
-Scam Checker	Scam and phishing risk analysis
-Emergency Agent	Immediate cyber crime safety guidance
-Evidence Agent	Digital evidence preservation guidance
-Complaint Agent	Cyber crime complaint drafting
-Response Formatter	Formats and structures generated responses
+Agent
+
+Purpose
+
+Gemini Cyber Brain
+
+Main cyber crime reasoning and response generation
+
+Scam Checker
+
+Scam and phishing risk analysis
+
+Emergency Agent
+
+Immediate cyber crime safety guidance
+
+Evidence Agent
+
+Digital evidence preservation guidance
+
+Complaint Agent
+
+Cyber crime complaint drafting
+
+Response Formatter
+
+Formats and structures generated responses
+
 📚 RAG Pipeline
 
 LegalBot uses Retrieval-Augmented Generation (RAG) to provide relevant information from its cyber crime knowledge base.
@@ -133,14 +202,22 @@ Gemini AI
       ▼
 Final Response
 
-The knowledge base contains cyber crime information related to topics such as:
+The knowledge base contains information related to:
 
 Phishing
+
 OTP Fraud
+
 UPI Fraud
+
 Identity Theft
+
 Fake Loan Scams
+
 Social Media Hacking
+
+Digital Arrest
+
 🎙️ Voice Processing
 
 LegalBot uses a Whisper-based speech recognition pipeline for voice input.
@@ -157,36 +234,60 @@ Audio Recording
 FastAPI Voice Endpoint
     │
     ▼
-Whisper Model
+Faster-Whisper Model
     │
     ▼
 Text Transcription
     │
     ▼
 Chat Input
+
 🛠️ Technology Stack
+
 Frontend
+
 React
+
 Vite
+
 JavaScript
+
 CSS
+
 Backend
+
 Python
+
 FastAPI
+
 SQLAlchemy
+
 SQLite
+
 JWT Authentication
+
 AI / GenAI
+
 Google Gemini
+
 Retrieval-Augmented Generation (RAG)
+
 Embeddings
+
 Vector Database
+
 Faster-Whisper
+
 Development Tools
+
 Visual Studio Code
+
 Git
+
 GitHub
+
 📁 Project Structure
+
 LegalBot/
 │
 ├── backend/
@@ -207,8 +308,7 @@ LegalBot/
 │   │   └── main.py
 │   │
 │   ├── knowledge_base/
-│   ├── uploads/
-│   ├── vector_db/
+│   ├── .gitignore
 │   └── requirements.txt
 │
 ├── frontend/
@@ -219,49 +319,46 @@ LegalBot/
 │   └── vite.config.js
 │
 ├── .gitignore
+├── requirements.txt
 └── README.md
-⚙️ Installation
-1. Clone the Repository
-git clone https://github.com/your-username/LegalBot.git
-cd LegalBot
-🐍 Backend Setup
 
-Open a terminal and navigate to the backend:
+⚙️ Installation & Setup
+
+1. Clone the Repository
+
+git clone https://github.com/Gudiya2005/LegalBot.git
+cd LegalBot
+
+🐍 2. Backend Setup
 
 cd backend
-
-Create a virtual environment:
-
 python -m venv venv
 
-Activate the virtual environment on Windows:
+Windows:
 
 venv\Scripts\activate
 
-Install the required dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
-🔐 Environment Variables
 
-Create a .env file inside the backend directory.
+🔐 3. Environment Variables
 
-Use the following format:
+Create a .env file inside the backend directory:
 
 APP_NAME=LegalBot
 APP_VERSION=1.0.0
 
-
 SECRET_KEY=your_secret_key
 DATABASE_URL=sqlite:///./legalbot.db
 GEMINI_API_KEY=your_gemini_api_key
-
 
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
 
 Important: Never upload your actual .env file or API keys to GitHub.
 
-▶️ Run the Backend
+▶️ 4. Run the Backend
 
 From the backend directory:
 
@@ -274,39 +371,19 @@ http://127.0.0.1:8000
 FastAPI Swagger documentation:
 
 http://127.0.0.1:8000/docs
-⚛️ Frontend Setup
+
+⚛️ 5. Frontend Setup
 
 Open another terminal:
 
 cd frontend
-
-Install dependencies:
-
 npm install
-
-Start the frontend:
-
 npm run dev
 
 Frontend:
 
 http://localhost:5173
-🧪 Testing
 
-The project contains test scripts for different components of the system, including:
-
-Agent pipeline
-Chat history
-Chat service
-Complaint Agent
-Cyber Brain
-Embeddings
-Gemini API
-Language processing
-Document loading
-Retriever
-Text splitter
-Vector store
 🔒 Security
 
 LegalBot is designed as a cyber crime awareness and assistance platform.
@@ -316,10 +393,15 @@ Users should avoid sharing unnecessary sensitive information.
 The system does not replace:
 
 Law enforcement authorities
+
 Cyber crime reporting authorities
+
 Banks or financial institutions
+
 Cybersecurity professionals
+
 Professional legal advice
+
 ⚠️ Disclaimer
 
 LegalBot provides AI-generated assistance and educational guidance related to cyber crime and online fraud.
@@ -330,34 +412,28 @@ Complaint drafts generated by LegalBot are intended for review and should be ver
 
 🔮 Future Scope
 
-Future improvements may include:
+Potential future improvements include:
 
 📎 Screenshot and document analysis
+
 🖼️ Image and OCR processing
+
 📄 PDF/DOCX evidence analysis
+
 🔗 Suspicious URL analysis
+
 📱 Phone number risk analysis
+
 🌐 Improved multilingual voice recognition
+
 🧾 Complaint export to PDF
+
 🔔 Real-time cyber fraud alerts
+
 🚀 Cloud deployment
+
 👩‍💻 Project
 
 LegalBot — AI-Powered Cyber Crime & Online Fraud Assistant
 
-An AI/GenAI project combining conversational AI, RAG, multi-agent orchestration, cyber crime knowledge, voice interaction, and a modern web interface.
-
-
-
-### Do this now
-
-
-1. Go to your **main `LegalBot` folder**.
-2. Create `README.md`.
-3. Paste the entire content above.
-4. Save it.
-5. **Don't commit/push anything yet.**
-
-
-Once that's done, tell me **“README done”** and we'll do the next step: **exactly what to upload and what NOT to upload from your current `backend` and `frontend` folders.**
-can u generate a file
+An AI/GenAI project combining conversational AI, RAG, multi-agent orchestration, cyber crime knowledge, voice interaction, authentication, conversation history, and a modern web interface.
