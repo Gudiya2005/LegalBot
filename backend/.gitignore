@@ -1,0 +1,24 @@
+# Virtal Environment
+venv/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Database
+*.db
+
+# VS Code
+.vscode/
+
+# Uploads
+uploads
+
+# Vector Database
+vector_db/
+
+# Logs
+*.log

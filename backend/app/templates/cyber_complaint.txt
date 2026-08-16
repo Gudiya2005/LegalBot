@@ -1,0 +1,45 @@
+CYBER CRIME COMPLAINT
+
+Subject: Complaint Regarding {intent}
+
+Respected Sir/Madam,
+
+I am writing to report a cyber crime incident and request the concerned authorities to kindly investigate the matter and take appropriate action.
+
+I would like to report the following incident:
+
+{message}
+
+Incident Details:
+
+{details}
+
+I have not authorized any person to carry out the above activity, where applicable.
+
+I request the concerned authorities to kindly investigate the incident, take appropriate action against the person(s) responsible, and provide necessary assistance.
+
+I am willing to provide any additional information, screenshots, emails, messages, login alerts, transaction records, or other evidence required for investigation.
+
+Evidence Available:
+
+{evidence}
+
+Declaration:
+
+I confirm that the information provided above is true and correct to the best of my knowledge.
+
+Name: [Your Full Name]
+
+Contact Number: [Your Phone Number]
+
+Email Address: [Your Email Address]
+
+Date: [Date of Submission]
+
+Place: [City, State]
+
+Prepared with assistance from:
+LegalBot – Cyber Crime & Online Fraud Assistant
+
+Disclaimer:
+This is an AI-generated draft intended for user review. It does not replace an official complaint form or legal documentation and does not constitute legal advice. Please verify all information before submitting it to any authority.

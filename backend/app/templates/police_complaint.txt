@@ -1,0 +1,20 @@
+POLICE COMPLAINT
+
+Subject:
+Complaint regarding {intent}
+
+Respected Sir/Madam,
+
+I would like to report a cyber crime incident.
+
+Incident Details:
+{message}
+
+Evidence Available:
+{evidence}
+
+Prepared by:
+LegalBot – Cyber Crime & Online Fraud Assistant
+
+Disclaimer:
+This is an AI-generated draft intended for review. Please verify all information before submitting it to the appropriate authority.
