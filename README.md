@@ -286,8 +286,9 @@ Git
 
 GitHub
 
-📁 Project Structure
+# 📁 Project Structure
 
+```text
 LegalBot/
 │
 ├── backend/
@@ -321,6 +322,7 @@ LegalBot/
 ├── .gitignore
 ├── requirements.txt
 └── README.md
+```
 
 ⚙️ Installation & Setup
 
