@@ -18,6 +18,16 @@ It combines:
 
 ---
 
+## 🖥️ Application Preview
+
+### 🌙 Dark Mode
+
+![LegalBot Dark Mode](screenshots/main_chat_dark.png)
+
+### 🌞 Light Mode
+
+![LegalBot Light Mode](screenshots/main_chat_light.png)
+
 # ✨ Features
 
 ## 🤖 AI Cyber Crime Assistant
